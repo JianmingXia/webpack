@@ -1,22 +1,21 @@
 {
-  "name": "demo",
+  "name": "webpack",
   "version": "1.0.0",
-  "description": "",
+  "description": "- [demo_0](https://zhuanlan.zhihu.com/p/20367175?columnSlug=FrontendMagazine)",
   "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JianmingXia/webpack.git"
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "css-loader": "^0.28.0",
-    "file-loader": "^0.11.1",
-    "html-webpack-plugin": "^2.28.0",
-    "jquery": "^3.2.1",
-    "moment": "^2.18.1",
-    "sass-loader": "^6.0.3",
-    "style-loader": "^0.16.1",
-    "url-loader": "^0.5.8",
-    "webpack": "^1.13.1"
-  }
+  "bugs": {
+    "url": "https://github.com/JianmingXia/webpack/issues"
+  },
+  "homepage": "https://github.com/JianmingXia/webpack#readme"
 }
